@@ -1,9 +1,26 @@
 body{
-    background-color: crimson;
-    background-image: url("Sprint-3/Matterhorn.jpg");
+    background-image: url("Hintergrund.jpg");
     background-size: cover;
 }
+/* @font-face {
+    font-family: HandwrittenAvenir;
+    src: url(AvenirCondensedHand.ttf);
+} */
+@font-face{
+    font-family: Avenir-Light;
+    src: url(Fonts/Avenir/Avenir-Light.ttf);
+}
 
-a{color: bisque;}
+@font-face{
+    font-family: Avenir-Medium;
+    src: url(Fonts/Avenir/Avenir-Medium.ttf);
+}
 
-h1{color: aqua;}
+a{color: brown; }
+a{font-family: Avenir-Light;}
+
+h1{color: chocolate;}
+h1{font-family: Avenir-Medium;}
+h1{text-transform: uppercase;}
+
+
