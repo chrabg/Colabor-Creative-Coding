@@ -1,0 +1,68 @@
+body {
+    /* background-image: url("Hintergrund.jpg");
+    background-size: cover; */
+    background-color: #b17f01;
+}
+
+/* body{margin-top: 0px;} */
+@font-face {
+    font-family: HandwrittenAvenir;
+    src: url(Fonts/Avenir-Handwritten/AvenirCondensedHand.ttf);
+}
+
+@font-face {
+    font-family: Avenir-Light;
+    src: url(Fonts/Avenir/Avenir-Light.ttf);
+}
+
+@font-face {
+    font-family: Avenir-Medium;
+    src: url(Fonts/Avenir/Avenir-Medium.ttf);
+}
+
+h1 {
+    color: #fff3d4;
+    font-family: HandwrittenAvenir;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-left: 39px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+ul {
+    margin: 0
+}
+
+a {
+    color: #fff3d4;
+    font-family: Avenir-Light;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1e050a;
+}
+
+span {
+    color: #1e050a;
+    font-family: HandwrittenAvenir;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+p {
+    color: #1e050a;
+    font-family: Avenir-Medium;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0;
+}
