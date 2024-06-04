@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face{
+  font-family: Avenir-Light;
+  src: url(../Fonts/Avenir/Avenir-Light.ttf);
+}
+
+@font-face{
+  font-family: Avenir-Medium;
+  src: url(../Fonts/Avenir/Avenir-Medium.ttf);
+}
+
+a{color: brown; }
+a{font-family: Avenir-Light;}
+
+canvas {
+  display: block;
+}
+/* ul{
+  text-align: right;
+} */
